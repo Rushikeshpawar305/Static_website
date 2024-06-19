@@ -1,0 +1,391 @@
+{
+  "Header": {
+    "title": "LUXIROUS WINDOWVIEL",
+    "paragraph": "Imagine a blind that not only shields your space from external elements but also adds a touch of elegance and serenity to your surroundings. That's the essence of Window Veil. We're proud to be the pioneers of this unique concept in India, backed by a patent from the Indian government."
+  },
+  "About": {
+    "paragraph": "We take pride in introducing innovations that redefine your living spaces. With a commitment to blending design and functionality, we present Window Veil as a testament to our dedication. Our products are crafted with precision, using high-quality materials to ensure durability and energy efficiency. Backed by our product warranty, Window Veil is more than a window covering; it's an embodiment of our commitment to providing you with timeless solutions that enhance your lifestyle. Join us in discovering a world where light, space, and meaning converge, and where your surroundings become a canvas for illuminated expressions.",
+    "Why": [
+      "Artistic and Unique Design",
+      "Customization for Personalization",
+      "Balanced Light Control",
+      "Nocturnal Elegance"
+    ],
+    "Why2": [
+      "Energy Efficiency and Sustainability",
+      "Durable and High-Quality Fabric",
+      "Extensive Color Palette",
+      "Join the Window Veil Revolution"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "ahmdabad",
+      "id": "ahmdabad",
+      "largeImage": "img/portfolio/ahmdabad.png",
+      "smallImage": "img/portfolio/ahmdabad.png"
+    },
+    {
+      "title": "asia-day",
+      "id": "asia-day",
+      "largeImage": "img/portfolio/asia-day.png",
+      "smallImage": "img/portfolio/asia-day.png"
+    },
+    {
+      "title": "asia-night",
+      "id": "asia-night",
+      "largeImage": "img/portfolio/asia-night.png",
+      "smallImage": "img/portfolio/asia-night.png"
+    },
+    {
+      "title": "atm-machine-2",
+      "id": "atm-machine-2",
+      "largeImage": "img/portfolio/atm-machine-2.jpg",
+      "smallImage": "img/portfolio/atm-machine-2.jpg"
+    },
+    {
+      "title": "atm-machine",
+      "id": "atm-machine",
+      "largeImage": "img/portfolio/atm-machine.png",
+      "smallImage": "img/portfolio/atm-machine.png"
+    },
+    {
+      "title": "australia-city",
+      "id": "australia-city",
+      "largeImage": "img/portfolio/australia-city.png",
+      "smallImage": "img/portfolio/australia-city.png"
+    },
+    {
+      "title": "big-horizontal (1)",
+      "id": "big-horizontal-1",
+      "largeImage": "img/portfolio/big-horizontal (1).png",
+      "smallImage": "img/portfolio/big-horizontal (1).png"
+    },
+    {
+      "title": "big-horizontal-city-life",
+      "id": "big-horizontal-city-life",
+      "largeImage": "img/portfolio/big-horizontal-city-life.png",
+      "smallImage": "img/portfolio/big-horizontal-city-life.png"
+    },
+    {
+      "title": "big-horizontal-dark-aqua",
+      "id": "big-horizontal-dark-aqua",
+      "largeImage": "img/portfolio/big-horizontal-dark-aqua.png",
+      "smallImage": "img/portfolio/big-horizontal-dark-aqua.png"
+    },
+    {
+      "title": "big-horizontal-hollywood",
+      "id": "big-horizontal-hollywood",
+      "largeImage": "img/portfolio/big-horizontal-hollywood.png",
+      "smallImage": "img/portfolio/big-horizontal-hollywood.png"
+    },
+    {
+      "title": "big-horizontal-London",
+      "id": "big-horizontal-London",
+      "largeImage": "img/portfolio/big-horizontal-London.png",
+      "smallImage": "img/portfolio/big-horizontal-London.png"
+    },
+    {
+      "title": "big-horizontal-modern-city",
+      "id": "big-horizontal-modern-city",
+      "largeImage": "img/portfolio/big-horizontal-modern-city.png",
+      "smallImage": "img/portfolio/big-horizontal-modern-city.png"
+    },
+    {
+      "title": "big-horizontal-olive-green",
+      "id": "big-horizontal-olive-green",
+      "largeImage": "img/portfolio/big-horizontal-olive-green.png",
+      "smallImage": "img/portfolio/big-horizontal-olive-green.png"
+    },
+    {
+      "title": "big-horizontal-red",
+      "id": "big-horizontal-red",
+      "largeImage": "img/portfolio/big-horizontal-red.png",
+      "smallImage": "img/portfolio/big-horizontal-red.png"
+    },
+    {
+      "title": "big-horizontal",
+      "id": "big-horizontal",
+      "largeImage": "img/portfolio/big-horizontal.png",
+      "smallImage": "img/portfolio/big-horizontal.png"
+    },
+    {
+      "title": "city-scape",
+      "id": "city-scape",
+      "largeImage": "img/portfolio/city-scape.png",
+      "smallImage": "img/portfolio/city-scape.png"
+    },
+    {
+      "title": "cityscape-2",
+      "id": "cityscape-2",
+      "largeImage": "img/portfolio/cityscape-2.jpg",
+      "smallImage": "img/portfolio/cityscape-2.jpg"
+    },
+    {
+      "title": "cowarking",
+      "id": "cowarking",
+      "largeImage": "img/portfolio/cowarking.jpg",
+      "smallImage": "img/portfolio/cowarking.jpg"
+    },
+    {
+      "title": "coworking-3",
+      "id": "coworking-3",
+      "largeImage": "img/portfolio/coworking-3.png",
+      "smallImage": "img/portfolio/coworking-3.png"
+    },
+    {
+      "title": "coworking2",
+      "id": "coworking2",
+      "largeImage": "img/portfolio/coworking2.jpg",
+      "smallImage": "img/portfolio/coworking2.jpg"
+    },
+    {
+      "title": "cream-color",
+      "id": "cream-color",
+      "largeImage": "img/portfolio/cream-color.png",
+      "smallImage": "img/portfolio/cream-color.png"
+    },
+    {
+      "title": "creative-team-2",
+      "id": "creative-team-2",
+      "largeImage": "img/portfolio/creative-team-2.jpg",
+      "smallImage": "img/portfolio/creative-team-2.jpg"
+    },
+    {
+      "title": "creative-team",
+      "id": "creative-team",
+      "largeImage": "img/portfolio/creative-team.jpg",
+      "smallImage": "img/portfolio/creative-team.jpg"
+    },
+    {
+      "title": "different-proffesions",
+      "id": "different-proffesions",
+      "largeImage": "img/portfolio/different-proffesions.png",
+      "smallImage": "img/portfolio/different-proffesions.png"
+    },
+    {
+      "title": "diverse-friend",
+      "id": "diverse-friend",
+      "largeImage": "img/portfolio/diverse-friend.png",
+      "smallImage": "img/portfolio/diverse-friend.png"
+    },
+    {
+      "title": "family",
+      "id": "family",
+      "largeImage": "img/portfolio/family.jpg",
+      "smallImage": "img/portfolio/family.jpg"
+    },
+    {
+      "title": "father-and-son-2",
+      "id": "father-and-son-2",
+      "largeImage": "img/portfolio/father-and-son-2.jpg",
+      "smallImage": "img/portfolio/father-and-son-2.jpg"
+    },
+    {
+      "title": "father-and-son",
+      "id": "father-and-son",
+      "largeImage": "img/portfolio/father-and-son.jpg",
+      "smallImage": "img/portfolio/father-and-son.jpg"
+    },
+    {
+      "title": "mandala-art-1",
+      "id": "mandala-art-1",
+      "largeImage": "img/portfolio/mandala-art-1.jpg",
+      "smallImage": "img/portfolio/mandala-art-1.jpg"
+    },
+    {
+      "title": "mandla-design",
+      "id": "mandla-design",
+      "largeImage": "img/portfolio/mandla-design.jpg",
+      "smallImage": "img/portfolio/mandla-design.jpg"
+    },
+    {
+      "title": "meeting",
+      "id": "meeting",
+      "largeImage": "img/portfolio/meeting.jpg",
+      "smallImage": "img/portfolio/meeting.jpg"
+    },
+    {
+      "title": "project-engineer",
+      "id": "project-engineer",
+      "largeImage": "img/portfolio/project-engineer.jpg",
+      "smallImage": "img/portfolio/project-engineer.jpg"
+    },
+    {
+      "title": "roller-blinds-window-cityscape (1)",
+      "id": "roller-blinds-window-cityscape-1",
+      "largeImage": "img/portfolio/roller-blinds-window-cityscape (1).jpg",
+      "smallImage": "img/portfolio/roller-blinds-window-cityscape (1).jpg"
+    },
+    {
+      "title": "roller-blinds-window-cityscape",
+      "id": "roller-blinds-window-cityscape",
+      "largeImage": "img/portfolio/roller-blinds-window-cityscape.jpg",
+      "smallImage": "img/portfolio/roller-blinds-window-cityscape.jpg"
+    },
+    {
+      "title": "school-2",
+      "id": "school-2",
+      "largeImage": "img/portfolio/school-2.jpg",
+      "smallImage": "img/portfolio/school-2.jpg"
+    },
+    {
+      "title": "school",
+      "id": "school",
+      "largeImage": "img/portfolio/school.png",
+      "smallImage": "img/portfolio/school.png"
+    },
+    {
+      "title": "smoking-2",
+      "id": "smoking-2",
+      "largeImage": "img/portfolio/smoking-2.jpg",
+      "smallImage": "img/portfolio/smoking-2.jpg"
+    },
+
+    {
+      "title": "smoking",
+      "id": "smoking",
+      "largeImage": "img/portfolio/smoking.jpg",
+      "smallImage": "img/portfolio/smoking.jpg"
+    },
+    {
+      "title": "soldier-2",
+      "id": "soldier-2",
+      "largeImage": "img/portfolio/soldier-2.jpg",
+      "smallImage": "img/portfolio/soldier-2.jpg"
+    },
+    {
+      "title": "soldier",
+      "id": "soldier",
+      "largeImage": "img/portfolio/soldier.jpg",
+      "smallImage": "img/portfolio/soldier.jpg"
+    },
+    {
+      "title": "three-with-sofa-australia-city",
+      "id": "three-with-sofa-australia-city",
+      "largeImage": "img/portfolio/three-with-sofa-australia-city.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-australia-city.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-city-life",
+      "id": "three-with-sofa-hires-city-life",
+      "largeImage": "img/portfolio/three-with-sofa-hires-city-life.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-city-life.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-dentist",
+      "id": "three-with-sofa-hires-dentist",
+      "largeImage": "img/portfolio/three-with-sofa-hires-dentist.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-dentist.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-football",
+      "id": "three-with-sofa-hires-football",
+      "largeImage": "img/portfolio/three-with-sofa-hires-football.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-football.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-hollywood",
+      "id": "three-with-sofa-hires-hollywood",
+      "largeImage": "img/portfolio/three-with-sofa-hires-hollywood.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-hollywood.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-London",
+      "id": "three-with-sofa-hires-London",
+      "largeImage": "img/portfolio/three-with-sofa-hires-London.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-London.jpg"
+    },
+    {
+      "title": "three-with-sofa-hires-modern-city",
+      "id": "three-with-sofa-hires-modern-city",
+      "largeImage": "img/portfolio/three-with-sofa-hires-modern-city.jpg",
+      "smallImage": "img/portfolio/three-with-sofa-hires-modern-city.jpg"
+    },
+    {
+      "title": "Veil-Design",
+      "id": "Veil-Design",
+      "largeImage": "img/portfolio/Veil-Design.jpg",
+      "smallImage": "img/portfolio/Veil-Design.jpg"
+    }
+  ],
+  "Workingprocess": [
+    {
+      "icon": "fa fa-brain",
+      "name": "Creative Ideation",
+      "text": "Commence with a collaborative ideation process, harmonizing artistic vision and functional needs."
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "Precision Estimation",
+      "text": "Utilize cutting-edge tools and industry expertise to conduct a thorough estimation."
+    },
+    {
+      "icon": "fa fa-toolbox",
+      "name": "Craftsmanship Implementation",
+      "text": "Once the concept and estimation are approved, our skilled artisans and craftsmen take charge."
+    },
+    {
+      "icon": "fa fa-certificate",
+      "name": "Quality Assurance",
+      "text": "As the crafted window veils take shape, our quality assurance process kicks in. Rigorous checks and inspections are conducted to ensure that every piece meets our high standards of craftsmanship."
+    },
+    {
+      "icon": "fa fa-check-circle",
+      "name": "Seamless Installation",
+      "text": "The handover process marks the seamless transition from our workshop to your space. Your meticulously crafted window veils are prepared for a flawless installation."
+    },
+    {
+      "icon": "fa fa-handshake-angle",
+      "name": "Client Satisfaction and Support",
+      "text": "Beyond the installation, our commitment to your satisfaction continues. We provide post-installation support, addressing any queries or adjustments needed."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/user.avif",
+      "text": "\"WindowVeil curtains transformed my living room! The quality is superb, and the designs are simply stunning. Highly recommend!\"",
+      "name": "Aditya Joshi"
+    },
+    {
+      "img": "img/testimonials/user.avif",
+      "text": "\"WindowVeil has exceeded my expectations. The curtains are beautiful and easy to install. I'll definitely be buying more for other rooms!\"",
+      "name": "Pratik Deshmukh"
+    },
+    {
+      "img": "img/testimonials/user.avif",
+      "text": "\"I love my new curtains from WindowVeil! They add a touch of elegance to my home and provide excellent privacy. Great purchase.\"",
+      "name": "Shirin Kulkarni"
+    }
+  ],
+  "Contact": {
+    "address": "Swargate, Pune, Maharashtra-411042",
+    "phone": "+91 8788055962                      +91 8208452720",
+    "email": "windowveil07@gmail.in               info.windowveil@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-tint",
+      "title": "Water Resistent",
+      "text": "Lasting protection from water "
+    },
+    {
+      "icon": "fa fa-shield",
+      "title": "Warranty",
+      "text": "5 Years Warranty"
+    },
+    {
+      "icon": "fa fa-home",
+      "title": "Free Delivery",
+      "text": "Free shipping all over in India "
+    },
+    {
+      "icon": "fa fa-gear",
+      "title": "Free Installation",
+      "text": "Easier and smooth installation"
+    }
+  ]
+}
