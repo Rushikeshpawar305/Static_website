@@ -10,22 +10,22 @@ const generateGoogleFormUrl = (itemId) => {
   return url;
 };
 
-const Gallery = () => {
+const Home = () => {
   const handleImageClick = (itemId) => {
     const url = generateGoogleFormUrl(itemId);
     window.open(url, "_blank");
   };
 
-  const data = JsonData.Gallery;
+  const data = JsonData.Gallery.slice(0, 6); // Get the first 6 images
 
   return (
-    <div id="portfolio" className="text-center">
+    <div id="home" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Welcome to Our Home Page</h2>
           <p>
-            Discover our products through vibrant visuals in our gallery,
-            showcasing quality and innovation in every snapshot.
+            Explore a glimpse of our offerings with a selection of images from
+            our gallery.
           </p>
         </div>
         <div className="row">
@@ -52,4 +52,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Home;
