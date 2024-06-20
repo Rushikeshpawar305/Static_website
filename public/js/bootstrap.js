@@ -1,8 +1,4 @@
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under the MIT license
- */
+
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
@@ -16,20 +12,10 @@ if (typeof jQuery === 'undefined') {
   }
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: transition.js v3.3.7
- * http://getbootstrap.com/javascript/#transitions
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
-
-
 +function ($) {
   'use strict';
 
-  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
-  // ============================================================
+  
 
   function transitionEnd() {
     var el = document.createElement('bootstrap')
@@ -47,10 +33,9 @@ if (typeof jQuery === 'undefined') {
       }
     }
 
-    return false // explicit for ie8 (  ._.)
+    return false
   }
 
-  // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
     var $el = this
@@ -76,20 +61,11 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: alert.js v3.3.7
- * http://getbootstrap.com/javascript/#alerts
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
   'use strict';
 
-  // ALERT CLASS DEFINITION
-  // ======================
 
   var dismiss = '[data-dismiss="alert"]'
   var Alert   = function (el) {
@@ -136,9 +112,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // ALERT PLUGIN DEFINITION
-  // =======================
-
   function Plugin(option) {
     return this.each(function () {
       var $this = $(this)
@@ -154,37 +127,18 @@ if (typeof jQuery === 'undefined') {
   $.fn.alert             = Plugin
   $.fn.alert.Constructor = Alert
 
-
-  // ALERT NO CONFLICT
-  // =================
-
   $.fn.alert.noConflict = function () {
     $.fn.alert = old
     return this
   }
 
-
-  // ALERT DATA-API
-  // ==============
-
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: button.js v3.3.7
- * http://getbootstrap.com/javascript/#buttons
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
-
 
 +function ($) {
   'use strict';
-
-  // BUTTON PUBLIC CLASS DEFINITION
-  // ==============================
 
   var Button = function (element, options) {
     this.$element  = $(element)
@@ -208,7 +162,6 @@ if (typeof jQuery === 'undefined') {
 
     if (data.resetText == null) $el.data('resetText', $el[val]())
 
-    // push to event loop to allow forms to submit
     setTimeout($.proxy(function () {
       $el[val](data[state] == null ? this.options[state] : data[state])
 
@@ -245,9 +198,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // BUTTON PLUGIN DEFINITION
-  // ========================
-
   function Plugin(option) {
     return this.each(function () {
       var $this   = $(this)
@@ -267,26 +217,20 @@ if (typeof jQuery === 'undefined') {
   $.fn.button.Constructor = Button
 
 
-  // BUTTON NO CONFLICT
-  // ==================
-
   $.fn.button.noConflict = function () {
     $.fn.button = old
     return this
   }
 
 
-  // BUTTON DATA-API
-  // ===============
-
   $(document)
     .on('click.bs.button.data-api', '[data-toggle^="button"]', function (e) {
       var $btn = $(e.target).closest('.btn')
       Plugin.call($btn, 'toggle')
       if (!($(e.target).is('input[type="radio"], input[type="checkbox"]'))) {
-        // Prevent double click on radios, and the double selections (so cancellation) on checkboxes
+        
         e.preventDefault()
-        // The target component still receive the focus
+        
         if ($btn.is('input,button')) $btn.trigger('focus')
         else $btn.find('input:visible,button:visible').first().trigger('focus')
       }
@@ -297,20 +241,12 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: carousel.js v3.3.7
- * http://getbootstrap.com/javascript/#carousel
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
   'use strict';
 
-  // CAROUSEL CLASS DEFINITION
-  // =========================
+
 
   var Carousel = function (element, options) {
     this.$element    = $(element)
@@ -535,21 +471,9 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: collapse.js v3.3.7
- * http://getbootstrap.com/javascript/#collapse
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
-
-/* jshint latedef: false */
 
 +function ($) {
   'use strict';
-
-  // COLLAPSE PUBLIC CLASS DEFINITION
-  // ================================
 
   var Collapse = function (element, options) {
     this.$element      = $(element)
@@ -701,8 +625,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // COLLAPSE PLUGIN DEFINITION
-  // ==========================
+
 
   function Plugin(option) {
     return this.each(function () {
@@ -722,8 +645,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.collapse.Constructor = Collapse
 
 
-  // COLLAPSE NO CONFLICT
-  // ====================
+
 
   $.fn.collapse.noConflict = function () {
     $.fn.collapse = old
@@ -731,8 +653,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // COLLAPSE DATA-API
-  // =================
+  
 
   $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
     var $this   = $(this)
@@ -748,20 +669,10 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: dropdown.js v3.3.7
- * http://getbootstrap.com/javascript/#dropdowns
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
   'use strict';
-
-  // DROPDOWN CLASS DEFINITION
-  // =========================
 
   var backdrop = '.dropdown-backdrop'
   var toggle   = '[data-toggle="dropdown"]'
@@ -874,9 +785,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // DROPDOWN PLUGIN DEFINITION
-  // ==========================
-
   function Plugin(option) {
     return this.each(function () {
       var $this = $(this)
@@ -893,8 +801,6 @@ if (typeof jQuery === 'undefined') {
   $.fn.dropdown.Constructor = Dropdown
 
 
-  // DROPDOWN NO CONFLICT
-  // ====================
 
   $.fn.dropdown.noConflict = function () {
     $.fn.dropdown = old
@@ -902,8 +808,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // APPLY TO STANDARD DROPDOWN ELEMENTS
-  // ===================================
 
   $(document)
     .on('click.bs.dropdown.data-api', clearMenus)
@@ -914,20 +818,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: modal.js v3.3.7
- * http://getbootstrap.com/javascript/#modals
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // MODAL CLASS DEFINITION
-  // ======================
+ 
 
   var Modal = function (element, options) {
     this.options             = options
@@ -993,7 +890,7 @@ if (typeof jQuery === 'undefined') {
       var transition = $.support.transition && that.$element.hasClass('fade')
 
       if (!that.$element.parent().length) {
-        that.$element.appendTo(that.$body) // don't move modals dom position
+        that.$element.appendTo(that.$body) 
       }
 
       that.$element
@@ -1003,7 +900,7 @@ if (typeof jQuery === 'undefined') {
       that.adjustDialog()
 
       if (transition) {
-        that.$element[0].offsetWidth // force reflow
+        that.$element[0].offsetWidth 
       }
 
       that.$element.addClass('in')
@@ -1013,7 +910,7 @@ if (typeof jQuery === 'undefined') {
       var e = $.Event('shown.bs.modal', { relatedTarget: _relatedTarget })
 
       transition ?
-        that.$dialog // wait for modal to slide in
+        that.$dialog 
           .one('bsTransitionEnd', function () {
             that.$element.trigger('focus').trigger(e)
           })
@@ -1054,7 +951,7 @@ if (typeof jQuery === 'undefined') {
 
   Modal.prototype.enforceFocus = function () {
     $(document)
-      .off('focusin.bs.modal') // guard against infinite focus loop
+      .off('focusin.bs.modal') 
       .on('focusin.bs.modal', $.proxy(function (e) {
         if (document !== e.target &&
             this.$element[0] !== e.target &&
@@ -1120,7 +1017,7 @@ if (typeof jQuery === 'undefined') {
           : this.hide()
       }, this))
 
-      if (doAnimate) this.$backdrop[0].offsetWidth // force reflow
+      if (doAnimate) this.$backdrop[0].offsetWidth 
 
       this.$backdrop.addClass('in')
 
@@ -1150,7 +1047,6 @@ if (typeof jQuery === 'undefined') {
     }
   }
 
-  // these following methods are used to handle overflowing modals
 
   Modal.prototype.handleUpdate = function () {
     this.adjustDialog()
@@ -1202,8 +1098,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // MODAL PLUGIN DEFINITION
-  // =======================
 
   function Plugin(option, _relatedTarget) {
     return this.each(function () {
@@ -1223,8 +1117,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.modal.Constructor = Modal
 
 
-  // MODAL NO CONFLICT
-  // =================
+
 
   $.fn.modal.noConflict = function () {
     $.fn.modal = old
@@ -1232,8 +1125,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // MODAL DATA-API
-  // ==============
+
 
   $(document).on('click.bs.modal.data-api', '[data-toggle="modal"]', function (e) {
     var $this   = $(this)
@@ -1254,21 +1146,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: tooltip.js v3.3.7
- * http://getbootstrap.com/javascript/#tooltip
- * Inspired by the original jQuery.tipsy by Jason Frame
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // TOOLTIP PUBLIC CLASS DEFINITION
-  // ===============================
+ 
 
   var Tooltip = function (element, options) {
     this.type       = null
@@ -1507,19 +1391,17 @@ if (typeof jQuery === 'undefined') {
     var width  = $tip[0].offsetWidth
     var height = $tip[0].offsetHeight
 
-    // manually read margins because getBoundingClientRect includes difference
     var marginTop = parseInt($tip.css('margin-top'), 10)
     var marginLeft = parseInt($tip.css('margin-left'), 10)
 
-    // we must check for NaN for ie 8/9
+    
     if (isNaN(marginTop))  marginTop  = 0
     if (isNaN(marginLeft)) marginLeft = 0
 
     offset.top  += marginTop
     offset.left += marginLeft
 
-    // $.fn.offset doesn't round pixel values
-    // so we use setOffset directly with our own function B-0
+    
     $.offset.setOffset($tip[0], $.extend({
       using: function (props) {
         $tip.css({
@@ -1617,12 +1499,11 @@ if (typeof jQuery === 'undefined') {
 
     var elRect    = el.getBoundingClientRect()
     if (elRect.width == null) {
-      // width and height are missing in IE8, so compute them manually; see https://github.com/twbs/bootstrap/issues/14093
+   
       elRect = $.extend({}, elRect, { width: elRect.right - elRect.left, height: elRect.bottom - elRect.top })
     }
     var isSvg = window.SVGElement && el instanceof window.SVGElement
-    // Avoid using $.offset() on SVGs since it gives incorrect results in jQuery 3.
-    // See https://github.com/twbs/bootstrap/issues/20280
+  
     var elOffset  = isBody ? { top: 0, left: 0 } : (isSvg ? null : $element.offset())
     var scroll    = { scroll: isBody ? document.documentElement.scrollTop || document.body.scrollTop : $element.scrollTop() }
     var outerDims = isBody ? { width: $(window).width(), height: $(window).height() } : null
@@ -1744,8 +1625,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // TOOLTIP PLUGIN DEFINITION
-  // =========================
+
 
   function Plugin(option) {
     return this.each(function () {
@@ -1765,8 +1645,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.tooltip.Constructor = Tooltip
 
 
-  // TOOLTIP NO CONFLICT
-  // ===================
+
 
   $.fn.tooltip.noConflict = function () {
     $.fn.tooltip = old
@@ -1775,20 +1654,12 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: popover.js v3.3.7
- * http://getbootstrap.com/javascript/#popovers
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // POPOVER PUBLIC CLASS DEFINITION
-  // ===============================
 
   var Popover = function (element, options) {
     this.init('popover', element, options)
@@ -1806,8 +1677,6 @@ if (typeof jQuery === 'undefined') {
   })
 
 
-  // NOTE: POPOVER EXTENDS tooltip.js
-  // ================================
 
   Popover.prototype = $.extend({}, $.fn.tooltip.Constructor.prototype)
 
@@ -1853,8 +1722,6 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // POPOVER PLUGIN DEFINITION
-  // =========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -1874,8 +1741,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.popover.Constructor = Popover
 
 
-  // POPOVER NO CONFLICT
-  // ===================
+
 
   $.fn.popover.noConflict = function () {
     $.fn.popover = old
@@ -1884,21 +1750,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: scrollspy.js v3.3.7
- * http://getbootstrap.com/javascript/#scrollspy
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // SCROLLSPY CLASS DEFINITION
-  // ==========================
-
+ 
   function ScrollSpy(element, options) {
     this.$body          = $(document.body)
     this.$scrollElement = $(element).is(document.body) ? $(window) : $(element)
@@ -2016,8 +1874,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // SCROLLSPY PLUGIN DEFINITION
-  // ===========================
+
 
   function Plugin(option) {
     return this.each(function () {
@@ -2036,8 +1893,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.scrollspy.Constructor = ScrollSpy
 
 
-  // SCROLLSPY NO CONFLICT
-  // =====================
+
 
   $.fn.scrollspy.noConflict = function () {
     $.fn.scrollspy = old
@@ -2045,8 +1901,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // SCROLLSPY DATA-API
-  // ==================
+
 
   $(window).on('load.bs.scrollspy.data-api', function () {
     $('[data-spy="scroll"]').each(function () {
@@ -2057,21 +1912,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: tab.js v3.3.7
- * http://getbootstrap.com/javascript/#tabs
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // TAB CLASS DEFINITION
-  // ====================
-
+ 
   var Tab = function (element) {
     // jscs:disable requireDollarBeforejQueryAssignment
     this.element = $(element)
@@ -2143,7 +1990,7 @@ if (typeof jQuery === 'undefined') {
           .attr('aria-expanded', true)
 
       if (transition) {
-        element[0].offsetWidth // reflow for transition
+        element[0].offsetWidth 
         element.addClass('in')
       } else {
         element.removeClass('fade')
@@ -2171,8 +2018,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // TAB PLUGIN DEFINITION
-  // =====================
+
 
   function Plugin(option) {
     return this.each(function () {
@@ -2190,8 +2036,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.tab.Constructor = Tab
 
 
-  // TAB NO CONFLICT
-  // ===============
+
 
   $.fn.tab.noConflict = function () {
     $.fn.tab = old
@@ -2199,8 +2044,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // TAB DATA-API
-  // ============
+
 
   var clickHandler = function (e) {
     e.preventDefault()
@@ -2213,20 +2057,12 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: affix.js v3.3.7
- * http://getbootstrap.com/javascript/#affix
- * ========================================================================
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+
 
 
 +function ($) {
   'use strict';
 
-  // AFFIX CLASS DEFINITION
-  // ======================
 
   var Affix = function (element, options) {
     this.options = $.extend({}, Affix.DEFAULTS, options)
@@ -2328,8 +2164,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // AFFIX PLUGIN DEFINITION
-  // =======================
+
 
   function Plugin(option) {
     return this.each(function () {
@@ -2348,8 +2183,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.affix.Constructor = Affix
 
 
-  // AFFIX NO CONFLICT
-  // =================
+
 
   $.fn.affix.noConflict = function () {
     $.fn.affix = old
@@ -2357,8 +2191,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // AFFIX DATA-API
-  // ==============
+  
 
   $(window).on('load', function () {
     $('[data-spy="affix"]').each(function () {
