@@ -2,7 +2,7 @@
 
 By Rushikesh Pawar (intern at JV industries)
 
-## <a href="http://localhost:3000/">LIVE DEMO</a> 
+## <a href="https://windowveil.netlify.app/">LIVE DEMO</a> 
 
 
 
